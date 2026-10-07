@@ -50,7 +50,7 @@ if (appointmentForm) {
             formMessage.style.color = "#4c817b";
 
             const response = await fetch(
-                "http://localhost:5000/api/appointments",
+                "/api/appointments",
                 {
                     method: "POST",
                     headers: {
